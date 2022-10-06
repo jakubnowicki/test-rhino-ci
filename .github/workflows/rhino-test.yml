@@ -22,7 +22,7 @@ jobs:
         run: >
           sudo apt-get update && sudo apt-get install --yes
           libcurl4-openssl-dev
-          libdgal-dev
+          libgdal-dev
 
       - name: Restore renv from cache
         uses: actions/cache@v2
